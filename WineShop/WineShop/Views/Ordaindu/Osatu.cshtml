@@ -1,0 +1,42 @@
+﻿@model Wineshop.ViewModels.OsatuViewModel
+
+@{
+    ViewData["Title"] = "Osatu";
+}
+
+<div class="container">
+    <p>@Html.DisplayFor(modelItem => Model.Bezeroa), zure erosketa ondo osatu da</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Ardoa
+                </th>
+                <th>
+                    Kantitatea
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.SaskiaAleak)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ArdoaId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Kantitatea)
+                    </td>
+                </tr>
+            }
+            <tr>
+                <td>
+                    <a class="btn btn-borgona text-light" asp-controller="Home" asp-action="Index">Bueltatu</a>
+                    <a class="btn btn-borgona text-light" asp-controller="Report" asp-action="Inprimatu">Tiketa</a>
+                </td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
