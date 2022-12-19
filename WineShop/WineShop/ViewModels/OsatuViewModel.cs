@@ -1,4 +1,5 @@
 ﻿using Wineshop.Models;
+using Wineshop.ViewModels;
 
 namespace WineShop.ViewModels
 {
@@ -6,6 +7,7 @@ namespace WineShop.ViewModels
     {
         public string Bezeroa { get; set; }
         public string SaskiaId { get; set; }
-        public IList<SaskiaAlea> SaskiaAleak { get; set; }
+        public IList<SaskiaAleaViewModel> SaskiaAleaVMList { get; set; }
+        public List<SaskiaAlea> SaskiaAleak { get; internal set; }
     }
 }

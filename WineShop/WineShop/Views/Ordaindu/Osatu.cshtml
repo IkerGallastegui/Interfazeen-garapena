@@ -1,4 +1,4 @@
-﻿@model Wineshop.ViewModels.OsatuViewModel
+﻿@model WineShop.ViewModels.OsatuViewModel
 
 @{
     ViewData["Title"] = "Osatu";
@@ -18,11 +18,11 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model.SaskiaAleak)
+            @foreach (var item in Model.SaskiaAleaVMList)
             {
                 <tr>
                     <td>
-                        @Html.DisplayFor(modelItem => item.ArdoaId)
+                        @Html.DisplayFor(modelItem =>  item.Izena)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Kantitatea)

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mEZvbsPIRGTHIvK/a6dXHjk1Jq4SNKO9jlzWmuKQJK4eFiKOIScKzxBHA54E7ay0XKEiJyOWPu2s04KXqblp3Q==",
+  "dgSpecHash": "BUn99/HpYwohnrobbUSVo7jgBks5tweX635wM4Jex4LyIMCf96ZR2ioDYt1r0UgGMAh226p+uy+yN0YDmoWi9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\gallastegui.iker\\Desktop\\Desarrollo Interface\\WineShop\\WineShop\\WineShop.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gallastegui.iker\\.nuget\\packages\\documentformat.openxml\\2.19.0\\documentformat.openxml.2.19.0.nupkg.sha512",
     "C:\\Users\\gallastegui.iker\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gallastegui.iker\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\gallastegui.iker\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
@@ -132,6 +133,7 @@
     "C:\\Users\\gallastegui.iker\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "C:\\Users\\gallastegui.iker\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\gallastegui.iker\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\gallastegui.iker\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512",
     "C:\\Users\\gallastegui.iker\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\gallastegui.iker\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\gallastegui.iker\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
